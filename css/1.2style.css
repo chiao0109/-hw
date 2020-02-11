@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+#wrapper{
+    background: linear-gradient(to bottom, white, #dfe3ee);
+    width: 400px;
+    height: 550px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -275px;
+    margin-left: -200px;
+}
+h1,h3{
+    margin: 8px;
+}
+.group{
+    margin: 10px;
+}
+input{
+    border-radius: 3px;
+    border: 1px solid #888;
+    padding: 10px;
+    font-size: 18px;
+}
+.name{
+    margin: 5px 0;
+    width: 49%;
+}
+.num{
+    margin: 5px 0;    
+    width: 99%;
+}
+.birthday{
+    margin: 10px;
+    width: 100%;
+}
+.birthday option{
+    width: 50%;
+}
+.birthday a{
+    font-size: 12px;
+    float: right;
+    width: 40%;
+    margin-right: 40px;
+}
+.birthday p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.sex{
+    margin: 20px 10px;
+}
+a{
+    color: #3b5998;
+    text-decoration: none;
+}
+.detail p{
+    margin: 10px;
+    font-size: 12px;
+    width: 80%;
+    line-height: 1.5;
+}
+select{
+    padding: 5px;
+}
+button{
+    background-color: green;
+    color: white;
+    font-size: 24px;
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
