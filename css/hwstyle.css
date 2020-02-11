@@ -37,6 +37,12 @@ input{
 .check input{
     margin: 8px 0;
 }
+input[type="checkbox"]:checked + label {
+    color: #c87;
+  }
+input[type="radio"]:checked + label {
+    color: #c87;
+}
 .whether{
     margin: 10px 0;
 }
