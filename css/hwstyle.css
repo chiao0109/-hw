@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.wrapper{
+    background-color: #fcfaf2;
+    width: 300px;
+    padding: 18px;
+    font-family: Microsoft JhengHei;
+}
+.individual input{
+    background-color: #f2e8df;
+    border: 1px;
+    padding: 8px;
+    margin: 8px 0;
+    width: 63%;
+}
+input{
+    border-radius: 5px;
+}
+.iq{
+    background-color: #f2e8df;
+    border: 1px;
+    padding: 8px;
+    margin: 8px 0;
+    width: 23%;
+}
+.resume{
+    margin: 8px 0;
+    width: 100%;
+}
+.resume input{
+    float: right;
+    width: 80%;
+}
+.check input{
+    margin: 8px 0;
+}
+.whether{
+    margin: 10px 0;
+}
+#time{
+    background-color: #f2e8df;
+    border: 1px;
+    padding: 8px;
+    margin: 8px 0;
+}
+textarea{
+    background-color: #f2e8df;
+    border-radius: 5px;
+    border: 1px;
+    width: 100%;
+    margin: 8px 0;
+}
+button{
+    background-color: #f2e8df;
+    border-radius: 5px;
+    border: 1px;
+    padding: 5px 15px;
+    margin: 15px 0;
+}
+img{
+    background-color: #fcfaf2;
+}
