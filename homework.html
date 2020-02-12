@@ -8,83 +8,84 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="individual">
-            <label for="name">名字：</label>
-            <input type="text" name="name" class="name">
-        </div>
-        <div class="individual">
-            <label for="birthday">生日：</label>
-            <input type="date" name="birthday" class="birthday">
-        </div>
-        <div class="individual">
-            <label for="mail">信箱：</label>
-            <input type="text" name="mail" class="mail">
-        </div>
-        <div class="individual">
-            <label for="password">密碼：</label>
-            <input type="text" name="password" class="password">
-        </div>
-        <div>
-            <label for="iq">智商：</label>
-            <input type="text" name="iq" class="iq">
-        </div>
-        <div class="resume">
-            <label>履歷：<input type="file"><label>
-        </div>
-        <div class="check">
-            <label>秒懂進度：</label>
-            <div>
-                <input type="checkbox" value="html" name="html" id="html">
-                <label for="html">HTML</label>
+        <form>
+            <div class="individual">
+                <label for="name">名字：</label>
+                <input type="text" name="name" class="name">
+            </div>
+            <div class="individual">
+                <label for="birthday">生日：</label>
+                <input type="date" name="birthday" class="birthday">
+            </div>
+            <div class="individual">
+                <label for="mail">信箱：</label>
+                <input type="email" name="mail" class="mail">
+            </div>
+            <div class="individual">
+                <label for="password">密碼：</label>
+                <input type="text" name="password" class="password">
             </div>
             <div>
-                <input type="checkbox" value="css" name="css" id="css">
-                <label for="css">CSS</label>
-            </div> 
-            <div>
-                <input type="checkbox" value="jq" name="jq" id="jq">
-                <label for="jq">Jquery</label>
+                <label for="iq">智商：</label>
+                <input type="number" name="iq" class="iq" min="80" max="200">
+            </div>
+            <div class="resume">
+                <label>履歷：<input type="file"><label>
+            </div>
+            <div class="check">
+                <label>秒懂進度：</label>
+                <div>
+                    <input type="checkbox" value="html" name="html" id="html">
+                    <label for="html">HTML</label>
+                </div>
+                <div>
+                    <input type="checkbox" value="css" name="css" id="css">
+                    <label for="css">CSS</label>
+                </div> 
+                <div>
+                    <input type="checkbox" value="jq" name="jq" id="jq">
+                    <label for="jq">Jquery</label>
+                </div>
+                <div>
+                    <input type="checkbox" value="cut" name="cut" id="cut">
+                    <label for="cut">版面切割</label>
+                </div>
+                <div>
+                    <input type="checkbox" value="bs" name="bs" id="bs">
+                    <label for="bs">Bootstrap</label>
+                </div>            
+                <div>
+                    <input type="checkbox" value="rwd" name="rwd" id="rwd">
+                    <label for="rwd">Bootstrap+RWD</label>
+                </div>                      
+            </div>
+            <div class="whether">
+                <label>作業是否完成：</label>
+                <input type="radio" id="yes" name="ys">
+                <label for="yes">Yes</label> 
+                <input type="radio" id="no" name="ys">
+                <label for="no">No</label> 
             </div>
             <div>
-                <input type="checkbox" value="cut" name="cut" id="cut">
-                <label for="cut">版面切割</label>
+                <label for="time">作業完成時間：</label>
+                <input type="time" name="time" id="time" value="14:20:00">
             </div>
-            
             <div>
-                <input type="checkbox" value="bs" name="bs" id="bs">
-                <label for="bs">Bootstrap</label>
-            </div>            
+                <p>喜歡這次的作業嗎：</p>
+                <input type="range">
+            </div>
             <div>
-                <input type="checkbox" value="rwd" name="rwd" id="rwd">
-                <label for="rwd">Bootstrap+RWD</label>
-            </div>                      
-        </div>
-        <div class="whether">
-            <label>作業是否完成：</label>
-            <input type="radio" id="yes" name="ys">
-            <label for="yes">Yes</label> 
-            <input type="radio" id="no" name="ys">
-            <label for="no">No</label> 
-        </div>
-        <div>
-            <label for="time">作業完成時間：</label>
-            <input type="time" name="time" id="time" value="14:20:00">
-        </div>
-        <div>
-            <p>喜歡這次的作業嗎：</p>
-            <input type="range">
-        </div>
-        <div>
-            <p>對考試題目有哪些建議：</p>
-            <textarea rows="3" id="note"></textarea>
-        </div>
-        <div>
-            <button type="reset">清除</button>
-            <button type="submit">送出</button>
-        </div>
-        <div>
-            <img src="img/rabbit.png">
-        </div>
+                <p>對考試題目有哪些建議：</p>
+                <textarea rows="3" id="note"></textarea>
+            </div>
+            <div>
+                <button type="reset">清除</button>
+                <button type="submit">送出</button>
+            </div>
+            <div>
+                <img src="img/rabbit.png">
+            </div>
+        </form>
     </div>
 </body>
 </html>
