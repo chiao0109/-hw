@@ -67,7 +67,7 @@ input:focus{
     cursor: pointer;
     margin-top: 25px;
 }
-button:nth-last-child(2){
+.button button:first-child{
     width: 110px;
     margin-right: 5px;
 }
@@ -83,7 +83,6 @@ footer{
     font-size: 15px;
     line-height: 40px;
     background: #f2f2f2;
-    color: #5f6368;
 }
 .top{
     border-top: 1px solid #e4e4e4;
@@ -92,11 +91,12 @@ footer{
     font-size: 13px;
     border-top: 1px solid #e4e4e4;
 }
-a:visited{
-    color: #5f6368;
+p{
+     color: #5f6368;
 }
 a{
     text-decoration: none;
+    color: #5f6368;
 }
 a:hover{
     text-decoration: underline;
@@ -104,7 +104,6 @@ a:hover{
 header{
     margin: 22px 0 0 25px;
     font-size: 13px;
-    color: #5f6368;
     padding-bottom: 110px;
 }
 .voice{
