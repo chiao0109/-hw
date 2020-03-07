@@ -9,6 +9,7 @@
     margin: 0 auto;
     border: 1px solid #FAFAFA;
     background: #FAFAFA;
+    vertical-align: ;
 }
 header{
     text-align: center;
@@ -58,6 +59,7 @@ button{
     background: #3897F0;
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 .top{
     text-align: center;
