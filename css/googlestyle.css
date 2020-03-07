@@ -25,6 +25,7 @@ li{
 .google{
     text-align: center;
     padding-bottom: 10px;
+    padding-top: 100px;
 }
 .search{
     border-radius: 30px;
@@ -65,7 +66,7 @@ input:focus{
     width: 80px;
     font-size: 14px;
     cursor: pointer;
-    margin-top: 25px;
+
 }
 .button button:first-child{
     width: 110px;
@@ -74,6 +75,7 @@ input:focus{
 .button{
     text-align: center;
     clear: both;
+    margin-top: 25px;
 }
 footer{
     position: fixed;
@@ -104,7 +106,7 @@ a:hover{
 header{
     margin: 22px 0 0 25px;
     font-size: 13px;
-    padding-bottom: 110px;
+    margin-bottom: 20px;
 }
 .voice{
     width: 50px;
