@@ -3,10 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-.wrapper{
-    width: 100%;
-    height: 680px;
+body{
     background: #FAFAFA;
+}
+.wrapper{
+    height: 100%;
 }
 .content{
     width: 55%;
