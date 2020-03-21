@@ -6,6 +6,9 @@
 .wrapper{
     height: 100%;
 }
+.content{
+    width: 100%;
+}
 .right{
     float: right;
     line-height: 30PX;
