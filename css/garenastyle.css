@@ -34,6 +34,10 @@ body{
     width: 832px;
     height: 40px;
 }
+.text option{
+    font-size: 14px;
+    font-family: Microsoft JhengHei;
+}
 textarea{
     width: 832px;
 }
@@ -90,6 +94,10 @@ a{
     color: #FB4349;
     text-decoration: none;
 }
+a:hover{
+    color: white;
+    text-decoration: underline white;
+}
 button{
     width: 175px;
     height: 40px;
@@ -97,6 +105,11 @@ button{
     color: #FB4349;
     border: 1px solid #FB4349;
     font-size: 20px;
+}
+button:hover{
+    color: white;
+    background: #FB4349;
+    cursor: pointer;
 }
 .choice{
     width: 175px;
