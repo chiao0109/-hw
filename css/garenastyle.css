@@ -1,0 +1,121 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;  
+}
+body{
+    background: #2e2e2e;
+}
+.content{
+    width: 900px;
+    height: 900px;
+    background: #272222;
+    margin: 0px auto 50px auto;
+    border: 1px solid #383838;
+    border-radius: 3px;
+}
+.write{
+    height: 70px;
+    font-size: 30px;
+    padding: 20px 30px;
+    border-bottom: 1px dashed #474343;
+}
+.text{
+    width: 832px;
+    margin: 0px 30px
+}
+.text p{
+    width: 832px;
+    margin: 20px 0 5px 0;
+    font-size: 15px;
+    font-family: arial , 'Microsoft Jhenghei';
+}
+.text select{
+    width: 832px;
+    height: 40px;
+}
+textarea{
+    width: 832px;
+}
+.file{
+    margin: 0px 30px;
+    width: 832px;
+    height: 42px;
+    margin-top: 20px;
+    background: #2D2D2D;
+    border-radius: 5px;
+    border: 1px solid #2D2D2D;
+    padding: 10px 0px;
+}
+.file p{
+    float: left;
+    padding: 0px 15px;
+    font-size: 15px;
+    font-family: arial,'Microsoft Jhenghei';
+}
+.file input{
+    margin-left: 10px;
+    float: left;
+}
+p{
+    color: white;
+}
+input{
+    color: white;
+}
+.note{
+    width: 832px;
+    margin: 0px 30px;
+    height: 40px;
+    margin-top: 25px;
+    line-height: 20px;
+}
+.note p{
+    color: #B1525A;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-family: Arial,PMingLiU;
+}
+.follow{
+    width: 832px;
+    margin: 20px 30px;
+    height: 60px;
+    border-top: 1px solid #383838;
+    color: white;
+    font-size: 13px;
+    font-family: Arial,PMingLiU;
+    padding: 30px 120px;
+}
+a{
+    color: #FB4349;
+    text-decoration: none;
+}
+button{
+    width: 175px;
+    height: 40px;
+    background: #272222;
+    color: #FB4349;
+    border: 1px solid #FB4349;
+    font-size: 20px;
+}
+.choice{
+    width: 175px;
+    margin: 0 auto;
+}
+footer{
+    background: #1F1F1F;
+    height: 30px;
+}
+footer p{
+    color: #A1A1A1;
+    font-family: "Microsoft JhengHei", sans-serif;
+    font-size: 11px;
+    text-align: center;
+    padding: 7px 0px;
+}
+.checkbox {
+    vertical-align: middle;
+}
+form{
+    padding: 20px 0px;
+}
